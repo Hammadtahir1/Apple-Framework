@@ -9,6 +9,7 @@ import Foundation
 
 struct Framework: Hashable {
     
+    let id = UUID()
     let name: String
     let imageName: String
     let urlString: String

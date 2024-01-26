@@ -19,6 +19,7 @@ struct AFButtonView: View {
             .background(Color.yellow)
             .foregroundColor(.white)
             .cornerRadius(10)
+           
        
     }
 }
