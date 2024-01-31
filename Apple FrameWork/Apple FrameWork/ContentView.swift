@@ -12,6 +12,7 @@ struct ContentView: View {
     
     @StateObject var viewmodel = FrameworkGridViewModel()
         
+//   @StateObject var personVM = PersonViewModel()
     var body: some View {
         NavigationView {
             VStack {
@@ -30,6 +31,9 @@ struct ContentView: View {
                         .font(.system(size: 48))
                 })
             }
+//            .onAppear {
+//                personVM.practice()
+//            }
 //        }
 //        .navigationTitle("🍎 Frameworks")
 //        .sheet(isPresented: $viewmodel.isShowingDetailView ){

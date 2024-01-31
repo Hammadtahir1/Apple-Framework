@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1808D30D2B62655D00545126 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1808D30C2B62655D00545126 /* ListView.swift */; };
 		1808D30F2B62656800545126 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1808D30E2B62656800545126 /* GridView.swift */; };
+		1808D32B2B63B23D00545126 /* OOP Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1808D32A2B63B23D00545126 /* OOP Practice.swift */; };
 		1853EEB72B5FA6C400F580FE /* Apple_FrameWorkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1853EEB62B5FA6C400F580FE /* Apple_FrameWorkApp.swift */; };
 		1853EEB92B5FA6C400F580FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1853EEB82B5FA6C400F580FE /* ContentView.swift */; };
 		1853EEBE2B5FA6C800F580FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1853EEBD2B5FA6C800F580FE /* Preview Assets.xcassets */; };
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		1808D30C2B62655D00545126 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		1808D30E2B62656800545126 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		1808D32A2B63B23D00545126 /* OOP Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OOP Practice.swift"; sourceTree = "<group>"; };
 		1853EEB32B5FA6C400F580FE /* Apple FrameWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple FrameWork.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1853EEB62B5FA6C400F580FE /* Apple_FrameWorkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_FrameWorkApp.swift; sourceTree = "<group>"; };
 		1853EEB82B5FA6C400F580FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				1853EEB62B5FA6C400F580FE /* Apple_FrameWorkApp.swift */,
 				1853EF1F2B5FAE5800F580FE /* Assets.xcassets */,
 				1853EEBC2B5FA6C800F580FE /* Preview Content */,
+				1808D32A2B63B23D00545126 /* OOP Practice.swift */,
 			);
 			path = "Apple FrameWork";
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 				1853EEC52B5FA9DC00F580FE /* Framework.swift in Sources */,
 				1853EEB72B5FA6C400F580FE /* Apple_FrameWorkApp.swift in Sources */,
 				18CF92E82B6243DB00E8EC15 /* FrameworkTitleView.swift in Sources */,
+				1808D32B2B63B23D00545126 /* OOP Practice.swift in Sources */,
 				18CF92E62B6233D400E8EC15 /* SafariView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
