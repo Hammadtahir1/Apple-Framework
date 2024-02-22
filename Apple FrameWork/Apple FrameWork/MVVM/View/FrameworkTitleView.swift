@@ -18,6 +18,7 @@ struct HorizonalTitleView: View {
                 .frame(width: 65 , height: 65)
             
             Text(framework.name)
+                .foregroundColor(Color(.white))
                 .font(.title2)
                 .fontWeight(.semibold)
                 .scaledToFit()
@@ -38,6 +39,7 @@ struct VerticalTitleView: View {
                 .frame(width: 65 , height: 65)
             
             Text(framework.name)
+                .foregroundColor(Color(.label))
                 .font(.title2)
                 .fontWeight(.semibold)
                 .scaledToFit()

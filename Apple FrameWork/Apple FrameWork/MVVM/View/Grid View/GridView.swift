@@ -10,30 +10,35 @@ struct FrameworkGridView: View {
     
     @StateObject var viewModel = FrameworkGridViewModel()
     
-    let columns: [GridItem] = [GridItem(.flexible()),
-                               GridItem(.flexible()),
-                               GridItem(.flexible())
-                               ]
+    let columns: [GridItem] =   [GridItem(.flexible()),
+         GridItem(.flexible()),
+         GridItem(.flexible())
+    ]
     
-  
+    
     var body: some View {
-//        NavigationView {
-            ScrollView {
-                LazyVGrid(columns: columns) {
-                    ForEach(MockData.frameworks, id: \.id) { framework in
-                        NavigationLink {
-                            FrameworkDetailView(framework: framework)
-                        } label: {
-                            VerticalTitleView(framework: framework)
-                        }
+        //        NavigationView {
+        ScrollView {
+            LazyVGrid(columns: viewModel.columns) {
+                ForEach(MockData.frameworks, id: \.id) { framework in
+                    NavigationLink {
+                    FrameworkDetailView(framework: framework)
+                    } label: {
+                        VerticalTitleView(framework: framework)
+                        
                     }
                 }
-//            }
-            .navigationTitle("🍎 Frameworks")
-//            .navigationDestination(for: Framework.self) { framework in
+            }
+            //            }
+            
+            
+            //            .navigationDestination(for: Framework.self) { framework in
 //                FrameworkDetailView(framework: viewModel.slectedFramework!, isShowingDetailView: $viewModel.isShowingDetailView)
 //            }
         }
+        .navigationTitle("🍎 Frameworks")
+        .navigationBarTitleDisplayMode(.large)
+
     }
         
     
